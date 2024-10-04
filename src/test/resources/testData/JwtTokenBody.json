@@ -1,0 +1,12 @@
+{
+        "issuerKey": "idpv2key",
+        "sub": "ihautosys",
+        "uid": "652182",
+        "role": "System",
+        "roles": [
+                "IHOTELIER",
+                "ROLE_ADMIN",
+                "ROLE_USER",
+                "System"
+        ]
+}

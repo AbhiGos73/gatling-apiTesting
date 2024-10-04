@@ -1,0 +1,38 @@
+{
+  "hotelId":"#{HotelId}",
+  "userId":"123123",
+  "userName":"ihperf",
+  "products":{
+    "ratevalues":[
+      {
+
+        "startDate":"#{startDate}",
+        "endDate":"#{endDate}" ,
+        "dow":{
+          "MON":true,
+          "TUE":true,
+          "WED":true,
+          "THU":true,
+          "FRI":true,
+          "SAT":true,
+          "SUN":true
+        },
+        "roomId":"#{RoomID}",
+        "rateId":"#{RateID}",
+        "adultRates":[
+          {
+            "personCount":1,
+            "price":"#{1P}"
+
+          },
+          {
+            "personCount":2,
+            "price":"#{2P}"
+
+          }
+        ]
+      }
+    ]
+  },
+  "timezone":"US/Arizona"
+}

@@ -1,0 +1,27 @@
+{
+  "hotelId":"#{HotelId}",
+  "userId":"123123",
+  "userName":"ihperf",
+  "property":{
+    "restrictions":[
+      {
+        "closureRestrictions":{
+          "#{RestrictionType}":false
+        },
+        "startDate":"#{startDate}",
+        "endDate":"#{endDate}" ,
+        "dow":{
+          "MON":true,
+          "TUE":true,
+          "WED":true,
+          "THU":true,
+          "FRI":true,
+          "SAT":true,
+          "SUN":true
+        }
+      }
+
+    ]
+  },
+  "timezone":"US/Central"
+}

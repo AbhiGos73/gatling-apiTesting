@@ -1,0 +1,32 @@
+{
+  "hotelId":"#{HotelId}",
+  "userId":"123123",
+  "userName":"ihperf",
+  "property":{
+    "restrictions":[
+      {
+
+        "startDate":"#{startDate}",
+        "endDate":"#{endDate}",
+        "dow":{
+          "MON":true,
+          "TUE":true,
+          "WED":true,
+          "THU":true,
+          "FRI":true,
+          "SAT":true,
+          "SUN":true
+        },
+        "lengthOfStayRestrictions":[
+          {
+            "arrivalBased":"#{LOSArrBased}",
+
+            "minimum":"#{LOSMinDays}",
+            "maximum":"#{LOSMAXdays}"
+          }
+        ]
+      }
+    ]
+  },
+  "timezone":"US/Central"
+}

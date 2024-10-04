@@ -10,6 +10,8 @@ public class IDEPathHelper {
   static final Path mavenBinariesDirectory;
   static final Path resultsDirectory;
   static final Path recorderConfigFile;
+  static final Path environmentConfigFile;
+  static final Path testDataFile;
 
   static {
     try {
@@ -22,6 +24,8 @@ public class IDEPathHelper {
       mavenBinariesDirectory = mavenTargetDirectory.resolve("test-classes");
       resultsDirectory = mavenTargetDirectory.resolve("gatling");
       recorderConfigFile = mavenResourcesDirectory.resolve("recorder.conf");
+      environmentConfigFile = mavenResourcesDirectory.resolve("environment");
+      testDataFile = mavenResourcesDirectory.resolve("testData");
     } catch (URISyntaxException e) {
       throw new ExceptionInInitializerError(e);
     }

@@ -1,0 +1,22 @@
+{
+  "hotelId": "#{HotelId}",
+  "userId": "123123",
+  "userName": "ihperf",
+  "products": {"inventories": [   {
+    "startDate": "#{startDate}",
+    "endDate": "#{endDate}",
+    "dow":       {
+      "MON": true,
+      "TUE": true,
+      "WED": true,
+      "THU": true,
+      "FRI": true,
+      "SAT": true,
+      "SUN": true
+    },
+    "baseLineAllotted": "#{prodInventory}",
+    "roomId": "#{RoomID}",
+    "rateId": "#{RateID}"
+  }]},
+  "timezone": "US/Arizona"
+}
